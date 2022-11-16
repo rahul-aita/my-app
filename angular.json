@@ -22,10 +22,14 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+           
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              ],
+              "styles": [
+                "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+                "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              ]
           },
           "configurations": {
             "production": {
@@ -90,6 +94,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -97,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "acfb2e1a-4dc5-48ca-956e-da14ccce6cf9"
   }
 }
