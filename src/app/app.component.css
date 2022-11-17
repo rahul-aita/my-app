@@ -142,3 +142,16 @@
    text-decoration:none;
    color: #000;
  }
+ mat-grid-tile {
+  background: lightblue;
+  margin-left: 5%;
+ }
+  mat-grid-list {
+width: 50%;
+margin-top: 10%;
+margin-left: 5%;
+  }
+  mat-grid-tile:hover {
+    border: 2px solid blue;
+  
+  }
